@@ -2,8 +2,8 @@
 
 -- The radiator steam position, i.e. where the steam appears from.
 radiatorSteamPosLeftRight = 0.0
-radiatorSteamPosHeight = 0.8
-radiatorSteamPosDistance = 1.42
+radiatorSteamPosHeight = 0.9
+radiatorSteamPosDistance = 1.72
 
 -- The turbo smoke position, i.e. where the smoke appears from.
 turboSmokePosLeftRight = 0.0
