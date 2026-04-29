@@ -55,8 +55,8 @@ gearboxIsPSG = false                -- needs adjustments in drivetrain.ini, ext_
 gearboxIsElectrical = false          -- at the moment only for the special Cotal/Autoclutch gearbox. requires a special [AUTOCLUTCH] setting in drivetrain.ini. See 47 Delahaye as example
 
 --ENGINE and THROTTLE/TORQUE CURVE adjustments
-throttle_curve_gamma = 1.0 --defaults to 1.0
-throttle_curve_slope = 1.5 --defaults to 1.5
+throttle_curve_gamma = 0.75
+throttle_curve_slope = 2.2
 
 --ENGINE COOLANT FUNCTIONS
 engineCoolAmbientFalloff = 0.25 --0.45
@@ -101,8 +101,8 @@ radiatorEfficiencyEngineMapFactors = {1.1, 1.0, 0.7, 0.6}
 
 --REMOTE ADJUSTMENT FLAGS - whether or not the following things may be changed from the cockpit while driving or while in the pits only.
 remFlags = {
-    radiatorShutter = false,
-    fuelMix = false,
+    radiatorShutter = true,
+    fuelMix = true,
 }
 
 --TYRE REPLACEMENT FUNCTIONS
