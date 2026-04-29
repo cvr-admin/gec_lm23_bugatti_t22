@@ -1,0 +1,187 @@
+{
+  "name": "1923 - GEC - Bugatti Type 22 - S1.5",
+  "brand": "Bugatti",
+  "class": "1.5L Sports",
+  "country": "France",
+  "description": "------------------------------------------------------------<br>Car: Bugatti Type 22<br>Origin: France<br>Year: 1923<br>Class: 1.5L Sports (S1.5)<br>------------------------------------------------------------<br>3D Model: Bnuy<br>3D Update: Marguek<br>------------------------------------------------------------<br>description: <br><br>The Lagonda V12 Le Mans was a powerful endurance racer developed by Lagonda, featuring a large 4.5-liter V12 engine designed by W. O. Bentley. The car combined luxury-car engineering with racing performance, resulting in a machine capable of high speeds and long-distance durability.<br><br>Its design emphasized strength and stability, with a robust chassis and relatively large displacement compared to many competitors. While not as aerodynamically advanced as some rivals, the V12 engine provided strong straight-line performance, making it well-suited for the fast sections of the Le Mans circuit.<br><br>At the 1939 race, the Lagonda entries delivered respectable performances, leveraging their power and endurance capabilities. Although they did not secure overall victory, they remained competitive and highlighted British engineering strength in pre-war endurance racing.<br><br>------------------------------------------------------------",
+  "tags": [
+    "fwd",
+    "manual",
+    "sequential",
+    "race",
+    "1.5l sports",
+    "s1.5",
+    "singleseater",
+    "wsc",
+    "gec",
+    "lm23"
+  ],
+  "torqueCurve": [
+    [
+      0.0,
+      0.0
+    ],
+    [
+      500.0,
+      20.6896551724138
+    ],
+    [
+      1000.0,
+      64.367816091954
+    ],
+    [
+      2500.0,
+      71.2643678160919
+    ],
+    [
+      3000.0,
+      72.4137931034483
+    ],
+    [
+      3500.0,
+      71.2643678160919
+    ],
+    [
+      4000.0,
+      68.9655172413793
+    ],
+    [
+      4500.0,
+      55.1724137931034
+    ]
+  ],
+  "powerCurve": [
+    [
+      0.0,
+      0.0
+    ],
+    [
+      45.0,
+      0.0117678015382861
+    ],
+    [
+      90.0,
+      0.0470712061531443
+    ],
+    [
+      135.0,
+      0.105910213844575
+    ],
+    [
+      180.0,
+      0.188284824612577
+    ],
+    [
+      225.0,
+      0.294195038457152
+    ],
+    [
+      270.0,
+      0.423640855378299
+    ],
+    [
+      315.0,
+      0.576622275376018
+    ],
+    [
+      360.0,
+      0.75313929845031
+    ],
+    [
+      405.0,
+      0.953191924601173
+    ],
+    [
+      450.0,
+      1.17678015382861
+    ],
+    [
+      500.0,
+      1.45281500472668
+    ],
+    [
+      540.0,
+      1.83403366196696
+    ],
+    [
+      585.0,
+      2.30983057601494
+    ],
+    [
+      630.0,
+      2.83531376322458
+    ],
+    [
+      675.0,
+      3.41048322359588
+    ],
+    [
+      720.0,
+      4.03533895712882
+    ],
+    [
+      765.0,
+      4.70988096382342
+    ],
+    [
+      855.0,
+      6.20802379669756
+    ],
+    [
+      945.0,
+      7.90491172221832
+    ],
+    [
+      1000.0,
+      9.03973780718821
+    ],
+    [
+      2115.0,
+      20.6417408686571
+    ],
+    [
+      3000.0,
+      30.5091150992602
+    ],
+    [
+      3500.0,
+      35.0289840028543
+    ],
+    [
+      4000.0,
+      38.7417334593781
+    ],
+    [
+      4095.0,
+      38.1546993431348
+    ],
+    [
+      4185.0,
+      37.5340567731156
+    ],
+    [
+      4320.0,
+      36.4854149027039
+    ],
+    [
+      4455.0,
+      35.2955594138327
+    ],
+    [
+      4500.0,
+      34.8675601134403
+    ]
+  ],
+  "specs": {
+    "bhp": "39 bhp",
+    "torque": "72 Nm",
+    "weight": "795 kg",
+    "topspeed": "-- km/h",
+    "acceleration": "-- s 0–100",
+    "pwratio": "20.38 kg/hp"
+  },
+  "year": 1923,
+  "author": "Marguek / Garamond247",
+  "url": null,
+  "version": "0.050"
+}
