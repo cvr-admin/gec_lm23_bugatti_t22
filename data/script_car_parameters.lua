@@ -246,20 +246,20 @@ fuelExhaustionGForceThreshold = 0.9  -- Lateral G-force threshold where fuel exh
 ignitionType = 3 -- 1 = Magneto, 2 = Battery, 3 = Hybrid
 
 -- Settings for electricity system
-alternatorFailureRPM = 6500           -- RPM threshold for stressing alternator leash - see below
-alternatorFailureRate = 15000            -- added to make closer to other systems. the failureRPM above are redundant atm, because the overrevhighlimit is being used as treshold - 15000 seems quite low, but testing will show
-alternatorRepairTime = math.random(100, 200) -- How long alternator leash repairs should take on the side of the track (seconds). It's half that in the pits
-tempThresholdElectricity = 95         -- Temperature threshold for electronic system starts taking damage
-suspensionShockThreshold = 0.5        -- The damper speed interpreted as a "shock" event that will degrade battery
+alternatorFailureRPM = 4500           -- RPM threshold for stressing alternator leash - see below
+alternatorFailureRate = 40000            -- added to make closer to other systems. the failureRPM above are redundant atm, because the overrevhighlimit is being used as treshold - 15000 seems quite low, but testing will show
+alternatorRepairTime = math.random(180, 360) -- How long alternator leash repairs should take on the side of the track (seconds). It's half that in the pits
+tempThresholdElectricity = 100         -- Temperature threshold for electronic system starts taking damage
+suspensionShockThreshold = 0.8        -- The damper speed interpreted as a "shock" event that will degrade battery
 alternatorOK = true
 alternatorHealth = 1.0
-batteryCurrentCharge = 100.0
-batteryMaxCapacity = 100.0
+batteryCurrentCharge = 45.0
+batteryMaxCapacity = 45.0
 isRepairingBelt = false
 beltRepairTimer = 0
-powerDrainSystems = 0.00833  -- Defaults to 0.00833; power drain rate of vehicles system excluding headlights in units per second; hybrid cars take only half of that by default
-powerDrainHeadlights = 0.01296  -- Defaults to 0.01296; power drain rate of vehicles headlights (high beams) in units per second; low beams take only half of that by default
+powerDrainSystems = 0.004  -- Defaults to 0.00833; power drain rate of vehicles system excluding headlights in units per second; hybrid cars take only half of that by default
+powerDrainHeadlights = 0.02  -- Defaults to 0.01296; power drain rate of vehicles headlights (high beams) in units per second; low beams take only half of that by default
 
 -- Debug / telemetry (Lua Debug App)
-DEBUG_ELECTRICITY = false             -- prints key values using ac.debug()
+DEBUG_ELECTRICITY = true             -- prints key values using ac.debug()
 DEBUG_ELECTRICITY_INTERVAL = 0.25    -- seconds between prints
